@@ -334,7 +334,7 @@ header {
         width: 100%; }
     /* Cambiar tamaño del h1 para pantallas de 767px o menos */
     .slider .detail h1 {
-        font-size: 2rem; /* Ajusta el tamaño según lo necesario */
+        font-size: 2rem !important; /* Ajusta el tamaño según lo necesario */
     }}
 
 .small-menu {
