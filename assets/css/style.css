@@ -799,7 +799,7 @@ margin-top: 70px;
   display: inline-block;  /* Permite que el botón se comporte como un bloque pero no ocupe toda la línea */
   padding: 10px 14px;  /* Ajustamos el tamaño del botón */
   border-radius: 25px;  /* Bordes redondeados */
-  background-color: #007bff;  /* Fondo azul */
+  background-color: #1965fd;  /* Fondo azul */
   color: white;  /* Color del texto */
   width: 50%;  /* Establece el 50% del ancho */
   text-align: center;  /* Centra el texto dentro del botón */
