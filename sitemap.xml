@@ -4,7 +4,7 @@
   <!-- Página de inicio (única página) -->
   <url>
     <loc>https://electropromdq.com.ar/</loc>
-    <lastmod>2024-11-18</lastmod>  <!-- La fecha de la última actualización de la página -->
+    <lastmod>2024-11-22</lastmod>  <!-- La fecha de la última actualización de la página -->
     <changefreq>yearly</changefreq> <!-- Como la página es estática, la frecuencia de cambios es anual -->
     <priority>1.00</priority> <!-- Alta prioridad, ya que es la página principal -->
   </url>
