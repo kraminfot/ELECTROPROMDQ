@@ -56,13 +56,13 @@
 
 
 <!-- Hojas de estilo CSS -->
-<!-- Preconexión a los dominios de Google Fonts -->
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-
-<!-- Preload para las fuentes de Google Fonts (para carga más rápida) -->
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" as="style">
+<!-- Preload -->
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+</noscript>
 
 <!-- Carga de las fuentes de Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
