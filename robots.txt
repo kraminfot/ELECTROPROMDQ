@@ -1,6 +1,6 @@
 # robots.txt para ElectroproMDQ (single-page)
 User-agent: *
-Disallow:
+Disallow: /cdn-cgi/l/email-protection
 
 # Sitemap
 Sitemap: https://electropromdq.com.ar/sitemap.xml
