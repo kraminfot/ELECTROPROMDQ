@@ -1,8 +1,6 @@
 /* =======================================================================
 Plantila : ElectroproMDQ v.1.0
 ======================================================================= */
-/* ===================================== Importar Variables ================================== */
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 /* ===================================== CSS Basico ==================================== */
 * {
   margin: 0px;
@@ -98,7 +96,7 @@ body {
   .session-title h2 {
     width: 100%;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'PT Sans', sans-serif
     font-weight: 600; }
   .session-title p {
     max-width: 850px;
@@ -681,7 +679,7 @@ header {
 .footer-ablove .btn {
   float: right;
   background-color: #FFF;
-  font-family: "mouse-500", Arial, Helvetica, sans-serif; }
+  font-family: 'PT Sans', sans-serif }
 
 footer {
   padding: 80px 50px;
