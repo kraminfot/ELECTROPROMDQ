@@ -393,9 +393,16 @@ header {
   .slider .image {
     padding-top: 20px; }
     @media screen and (max-width: 767px) {
-      .slider .image {
-        padding-top: 0px; } }
+  .slider {
+    background-image: url(../images/slide-1-small.webp); /* Imagen optimizada para móviles */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center center; /* Alinea la imagen en el centro del contenedor */
+  }
 
+  .slider .image {
+    padding-top: 0px; /* Ajusta el padding según lo necesario */
+  }
+}
 /* ===================================== Keyfeatures Style CSS ==================================== */
 .key-features .key-row {
   margin-top: -60px; }
