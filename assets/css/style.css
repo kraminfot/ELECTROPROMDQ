@@ -394,7 +394,7 @@ header {
     padding-top: 20px; }
     @media screen and (max-width: 767px) {
   .slider {
-    background-image: url(../images/slide-1-small.webp); /* Imagen optimizada para móviles */
+    background-image: url(../images/slide-11-small.webp); /* Imagen optimizada para móviles */
     background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
     background-position: center center; /* Alinea la imagen en el centro del contenedor */
   }
