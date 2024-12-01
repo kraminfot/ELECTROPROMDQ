@@ -338,12 +338,6 @@
         </div>
     </div>
 <!-- Botón flotante de WhatsApp -->
-<a class="whatsapp-btn1" href="https://api.whatsapp.com/send?phone=5492236821998&text=Buen%20día%20quisiera%20consultar%20sobre%20" target="_blank" rel="noopener noreferrer" aria-label="Contáctanos por WhatsApp en Electropro MDQ" title="Chatea con Electropro MDQ - Contacto vía WhatsApp">
-    <img src="/assets/images/Whatsapp_Icon.png" 
-     alt="Icono de WhatsApp - Contáctanos en Electropro MDQ" 
-     border="0" 
-     style="width: 50px; height: 50px;">
-</a>
    <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Desplazamiento suave
@@ -390,30 +384,7 @@
             }
         });
 
-        // Control de la visibilidad del botón de WhatsApp al hacer scroll
-        var lastScrollTop = 0; // Para almacenar la posición anterior del scroll
-        var timer; // Temporizador para detectar cuando el usuario deja de hacer scroll
-        var whatsappBtn = document.querySelector('.whatsapp-btn1'); // Seleccionamos el botón
-
-        window.onscroll = function() {
-            var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-            if (currentScroll > lastScrollTop) {
-                // Si se hace scroll hacia abajo, ocultar el botón
-                whatsappBtn.style.display = 'none';
-            } else {
-                // Si se hace scroll hacia arriba, mostrar el botón
-                whatsappBtn.style.display = 'block';
-            }
-
-            // Reiniciamos el temporizador para detectar cuando el scroll se detenga
-            clearTimeout(timer);
-            timer = setTimeout(function() {
-                // Cuando el usuario deja de hacer scroll, mostramos el botón
-                whatsappBtn.style.display = 'block';
-            }, 300); // El tiempo de espera de 300 ms
-            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Asegurarse de que no sea negativo
-        };
+        
     });
 </script>
 </body>
