@@ -15,8 +15,12 @@ a:hover {
   color: #ffffff;
 }
 ul {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding-left: 0;
+}
+.lista-custom {
+    padding-bottom: 20px; /* Ajusta solo para esta lista */
+   padding-left: 0;
 }
 a:hover,
 a:focus,
