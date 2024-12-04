@@ -413,7 +413,6 @@
                 anchor.style.cursor = 'pointer'; // Cambiar el cursor cuando el mouse pasa por encima
             });
         });
-
         // Cerrar el menú en modo responsive
         document.querySelectorAll('#menu-jk .navs a').forEach(function(link) {
             link.addEventListener('click', function() {
@@ -423,7 +422,6 @@
                 }
             });
         });
-
         // Prevención de clics múltiples en el botón de WhatsApp
         let lastClicked = 0;
         const button = document.querySelector('.whatsapp-btn');
@@ -436,14 +434,12 @@
                 lastClicked = now; // Actualiza el tiempo de último clic
             }
         });
-
-        
     });
 </script>
-</body>
 <!-- Scripts de JavaScript -->
 <!-- Usar jQuery Slim con defer -->
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" defer></script> <!-- Usar CDN para Popper.js -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script> <!-- Usar CDN para Bootstrap -->
+</body>
 </html>
