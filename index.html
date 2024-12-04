@@ -52,38 +52,29 @@
             "areaServed": "Mar del Plata, Buenos Aires, AR"
         }
     </script>
-    <!-- Precargar imagen para versión de escritorio -->
-    <link rel="preload" href="assets/images/slide-12.webp" as="image" media="(min-width: 768px)">
+  <!-- Precargar imagen para versión de escritorio -->
+<link rel="preload" href="assets/images/slide-12.webp" as="image">
 
-    <!-- Precargar imagen para versión móvil -->
-    <link rel="preload" href="assets/images/slide-11-small.webp" as="image" media="(max-width: 767px)">
+<!-- Precargar imagen para versión móvil -->
+<link rel="preload" href="assets/images/slide-11-small.webp" as="image">
 
-    <!-- Hojas de estilo CSS -->
-    <!-- Preload PT Sans -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
+<!-- Preload PT Sans -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+</noscript>
 
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
-    </noscript>
+<!-- Preload para los archivos CSS más críticos -->
+<link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" as="style" onload="this.rel='stylesheet'">
 
-    <!-- Carga de la fuente PT Sans -->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Preload para los archivos CSS más críticos -->
-    <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" as="style">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" as="style">
-
-    <!-- Carga de librerías desde CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-    <!-- Archivo CSS personalizado cargado asincrónicamente -->
+<!-- Archivo CSS personalizado cargado asincrónicamente -->
 <link rel="preload" href="assets/css/style.css?v=8.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
     <link rel="stylesheet" href="assets/css/style.css?v=8.0">
 </noscript>
+
 </head>
 <!-- ##### Inicio de la web ##### -->
 <body>
