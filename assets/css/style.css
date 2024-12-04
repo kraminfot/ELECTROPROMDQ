@@ -519,7 +519,7 @@ header .header-bottom .navs ul li a {
 .custom-h2 {
   font-size: 20px !important;
   color: #ffffff !important;
-  font-weight: 6000 !important;
+  font-weight: 700 !important;
   margin-bottom: 0px !important;
 }
 #historia {
@@ -607,9 +607,7 @@ header .header-bottom .navs ul li a {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
-.ourservices {
-  @include big-padding();
-}
+
 .ourservices .service-row {
   margin-top: 20px;
 }
