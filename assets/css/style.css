@@ -94,6 +94,8 @@ body {
   text-rendering: optimizeLegibility;
   color: #6a6a6a;
   overflow-x: hidden;
+    font-size: 16px; /* Ajusta según sea necesario */
+  line-height: 1.5;
 }
 .session-title {
   padding: 30px;
