@@ -52,22 +52,23 @@
             "areaServed": "Mar del Plata, Buenos Aires, AR"
         }
     </script>
-  <!-- Precargar imagen para versión de escritorio -->
-    <link rel="preload" href="assets/images/slide-12.webp" as="image" media="(min-width: 768px)">
+<!-- Preconexión a recursos externos para reducir el tiempo de carga -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
 
-    <!-- Precargar imagen para versión móvil -->
-    <link rel="preload" href="assets/images/slide-11-small.webp" as="image" media="(max-width: 767px)">
+<!-- Precargar imagen para versión de escritorio -->
+<link rel="preload" href="assets/images/slide-12.webp" as="image" media="(min-width: 768px)">
 
-    <!-- Preload PT Sans -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
+<!-- Precargar imagen para versión móvil -->
+<link rel="preload" href="assets/images/slide-11-small.webp" as="image" media="(max-width: 767px)">
 
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
-    </noscript>
+<!-- Preload de fuentes -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
 
-    <!-- Carga de la fuente PT Sans -->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+</noscript>
 
 <!-- Preload para los archivos CSS más críticos -->
 <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
@@ -79,6 +80,20 @@
 <noscript>
     <link rel="stylesheet" href="assets/css/style.css?v=5.0">
 </noscript>
+
+<!-- Preload de fuentes de PT Sans -->
+<style type="text/css">
+    @font-face {
+        font-family:PT Sans;
+        font-style:normal;
+        font-weight:400;
+        src:url(/cf-fonts/s/pt-sans/5.0.11/latin/400/normal.woff2);
+        unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+        font-display:swap;
+    }
+    /* Agrega otras fuentes si es necesario */
+</style>
+
 
 </head>
 <!-- ##### Inicio de la web ##### -->
