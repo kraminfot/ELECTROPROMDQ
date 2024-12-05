@@ -88,7 +88,7 @@ strong {
 }
 body {
   background-color: #f9fbff !important;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
